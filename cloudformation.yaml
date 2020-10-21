@@ -24,7 +24,7 @@ Resources:
   TaskDefinition: 
     Type: AWS::ECS::TaskDefinition
     Properties:
-      Family: grafana-fargate-demo
+      Family: grafana-fargate
       RequiresCompatibilities:
         - FARGATE
       NetworkMode: awsvpc
